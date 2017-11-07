@@ -1,5 +1,5 @@
 require 'spec_helper'
-
+require 'pry'
 describe 'School' do
   before :each do
     @school = School.new("Test School")
@@ -7,7 +7,9 @@ describe 'School' do
 
   describe "::new" do
     it 'has an empty roster when initialized' do
+
       expect(@school.roster.length).to eq(0)
+
     end
   end
 
