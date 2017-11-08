@@ -20,7 +20,7 @@ attr_accessor :roster
   end
 
   def sort
-    @roster[student_name].sort {|a, b| a <=> b}
+    @roster <=> @roster[grade]
 
       #binding.pry
     
