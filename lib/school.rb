@@ -11,8 +11,13 @@ attr_accessor :roster
   def add_student(student_name, grade)
     @roster[grade] = []
     @roster[grade] << student_name
+    @roster.each do |key, value|
+      key << value
+    @roster
+  end
+  
 
-# binding.pry
+binding.pry
   end
 
 end
