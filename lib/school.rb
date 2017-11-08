@@ -24,6 +24,6 @@ attr_accessor :roster
       name.sort{|a, b| a <=> b}
     end
   end
-end    
+   
 
 end
