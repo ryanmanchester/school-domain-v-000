@@ -21,7 +21,7 @@ attr_accessor :roster
 
   def sort
     @roster[student_name].sort {|a, b| a <=> b}
-      
+
       #binding.pry
     
 end
