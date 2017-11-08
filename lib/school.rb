@@ -22,6 +22,6 @@ attr_accessor :roster
   def sort
     @roster.min
   end
-   
+
 
 end
