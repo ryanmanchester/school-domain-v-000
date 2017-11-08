@@ -12,7 +12,7 @@ attr_accessor :roster
     @roster[grade] = []
     @roster[grade] << student_name
     @roster.each do |key, value|
-      key << value
+      value << key
     @roster
   end
   
