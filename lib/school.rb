@@ -12,7 +12,7 @@ attr_accessor :roster
      @roster[grade] ||= []
      @roster[grade] << student_name
 
-     
+
 
 
 #binding.pry
