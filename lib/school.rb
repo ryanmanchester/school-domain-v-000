@@ -20,10 +20,10 @@ attr_accessor :roster
   end
 
   def sort
-    @roster.collect do |grade, name|
-      name
+    @roster[student_name].sort {|a, b| a <=> b}
+      
       #binding.pry
-    end
+    
 end
 
 end
