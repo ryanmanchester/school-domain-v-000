@@ -22,7 +22,7 @@ attr_accessor :roster
   def sort
     @roster.collect do |grade, name|
       name.sort{|a, b| a <=> b}
-      
+
     end
 
   end
