@@ -11,11 +11,9 @@ attr_accessor :roster
   def add_student(student_name, grade)
      @roster[grade] ||= []
      @roster[grade] << student_name
-
-
-
-
 #binding.pry
   end
+
+  
 
 end
