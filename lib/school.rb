@@ -16,6 +16,9 @@ attr_accessor :roster
 
   def grade(num)
     @roster[num] 
+  end
+
+  def sort
 
   end
 
