@@ -22,9 +22,8 @@ attr_accessor :roster
   def sort
     @roster.each do |grade, name|
       name.sort{|a, b| a <=> b}
-      @roster.rehash
-
-    end
+    
+   end
 
   end
 
