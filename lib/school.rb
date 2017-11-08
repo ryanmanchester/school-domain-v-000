@@ -14,6 +14,8 @@ attr_accessor :roster
 #binding.pry
   end
 
-  
+  def grade(num)
+
+  end
 
 end
