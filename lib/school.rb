@@ -19,8 +19,9 @@ attr_accessor :roster
   end
 
   def sort
-    
-
-  end
+    @roster.collect do |name, grade|
+      name
+    end
+end
 
 end
