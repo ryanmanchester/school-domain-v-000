@@ -20,7 +20,8 @@ attr_accessor :roster
   end
 
   def sort
-    @roster.values.sort{|a, b| a <=> b}
+    @roster.values
+    @roster
 
 end
 
