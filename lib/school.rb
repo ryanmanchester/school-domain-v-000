@@ -20,8 +20,11 @@ attr_accessor :roster
   end
 
   def sort
-    @roster.min
+    @roster.each do |grade, name|
+      name.sort{|a, b| a <=> b}
+    end
+    @roster
   end
-
+      
 
 end
