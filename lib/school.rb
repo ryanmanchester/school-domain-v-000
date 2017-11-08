@@ -20,7 +20,7 @@ attr_accessor :roster
 
   def sort
     @roster.collect do |grade, name|
-      name <=> grade 
+      name 
       #binding.pry
     end
 end
