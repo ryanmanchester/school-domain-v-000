@@ -20,7 +20,7 @@ attr_accessor :roster
   end
 
   def sort
-    
+
 end
 
 end
