@@ -23,7 +23,7 @@ attr_accessor :roster
     @roster <=> @roster[grade]
 
       #binding.pry
-    
+
 end
 
 end
