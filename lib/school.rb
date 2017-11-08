@@ -20,10 +20,7 @@ attr_accessor :roster
   end
 
   def sort
-    @roster <=> @roster[grade]
-
-      #binding.pry
-
+    
 end
 
 end
