@@ -24,7 +24,7 @@ attr_accessor :roster
       name.sort{|a, b| a <=> b}
       @roster[grade] << name
     end
-    
+
   end
 
 
