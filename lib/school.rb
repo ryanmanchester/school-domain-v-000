@@ -19,7 +19,7 @@ attr_accessor :roster
   end
 
   def sort
-    @roster[grade][student_name].sort {|x, y| x <=> y}
+    
 
   end
 
