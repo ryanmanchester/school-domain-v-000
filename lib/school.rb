@@ -15,7 +15,7 @@ attr_accessor :roster
       value << key
     @roster
   end
-  
+
 
 binding.pry
   end
