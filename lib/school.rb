@@ -16,7 +16,7 @@ attr_accessor :roster
 
   def grade(num)
     @roster[num]
-    binding.pry
+    #binding.pry
   end
 
   def sort
