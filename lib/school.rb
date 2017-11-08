@@ -25,6 +25,6 @@ attr_accessor :roster
     end
     @roster
   end
-      
+
 
 end
